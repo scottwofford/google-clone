@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* BEGIN SCOTT'S WORK
+*/
+
+* {
+	/*outline: 1px solid black;*/ /* Thinkful reccomendation temporarily to see outlines*/
+}
+
+#top-nav-bar
+{
+font-size: 13px;
+margin:5px;
+font-family:Arial;/*Why is this necessary? duplicate?*/
+text-align: right;
+padding-right:20px;
+}
+
+.each-top-link
+{
+font-size: 13px;
+padding-top:-25px; /*How do I get them flush w/ top?*/
+margin:10px;
+font-family:Arial;
+text-align: right;
+color:gray;
+}
+
+#grid {
+	margin:0px;
+	padding-top:10px; /*How do I get spact @ top alone?*/
+	width:18px;
+}
+
+#signin {
+	background-color:blue;
+	padding:7px;
+	color:white;
+	border-radius:3px;
+}
+
+#main {
+	text-align:center;
+}
+
+#logo
+{
+	text-align:center;
+	display: inline;
+	width: 300px;
+	padding-top: 135px;
+}
+
+#searchbar
+{
+	border:2px gray solid;
+	width: 500px;
+	padding:5px;
+	margin-bottom: 20px;
+	font-size:17px;
+	/*how to turn off blue hover*/
+}
+
+#form {
+	position:relative;
+	height:35px;
+}
+
+#mic {
+position: absolute;
+float: right;
+margin: 8px 0px 0px -30px;
+height: 25px;
+}
+
+.buttons {
+	background-color:#f4f4f4;
+	padding:10px;
+	color:#444444;
+	font-size:11px;
+	font-family:Arial;
+	display:inline-block;
+	border-radius: 3px;
+	border:1px black solid;
+	font-weight:bold;
+}
+
+#toolbar2 {
+	background-color:#f2f2f2;
+	position:fixed;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	margin-bottom: 0px;
+	padding: 3px;
+}
+
+.bottomlinksleft 
+{
+display:inline;
+font-size: 13px;
+font-family:Arial;
+color:gray; /*how to change color*/
+border:10px;
+
+}
+
+.bottomlinksright
+{
+float:right;
+font-size: 13px;
+font-family:Arial;
+color:gray; /*how to change color*/
+border:20px;
+
+}
+
+:link {
+	color:gray;
+	text-decoration:none;
+}
+
+:hover {
+	color:blue;
+}
